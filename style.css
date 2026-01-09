@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(106, 177, 231);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height:844px;
+    width:388px;
+    margin:auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);   
+    font-weight: bold;
+    animation: fadeIn 3s  1  ;
+}
+#myForm{
+    background-color: white;
+    padding: 20px;
+    
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(125, 106, 244);
+    border-radius: 30px;
+    animation: fadeIn 3s  1  ;
+}
+@keyframes fadeIn {
+    from { opacity: 0;
+        transform: translateY(-20px);
+     }
+    to { opacity: 1; }
+}
+#myForm input{
+    margin-bottom: -10px;
+}
